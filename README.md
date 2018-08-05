@@ -30,9 +30,11 @@ Padrão de desenvolvimento restful API - Flask
 
     2. Crie e ative o seu ambiente virtual em python3:
         ```
-        $ virtualenv venv
-	$ cd venv/scripts/activate
+        $ virtualenv venv  
         ```
+	```
+	$ cd venv/scripts/activate
+	```
 
 * #### Instale todas as dependencias
     ```
