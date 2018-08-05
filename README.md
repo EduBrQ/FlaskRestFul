@@ -18,19 +18,20 @@ Padrão de desenvolvimento restful API - Flask
     ```
 * Clone esse repositorio para o seu PC
     ```
-        $ git clone https://github.com/EduBrQ/Flask-Rest-Api---Demo.git
+        $ git clone https://github.com/EduBrQ/FlaskRestFul.git
     ```
 
 
 * #### Dependencias
     1. Cd em seu repositorio clonado, como tal:
         ```
-        $ cd rest_api_demo
+        $ cd FlaskRestFul
         ```
 
     2. Crie e ative o seu ambiente virtual em python3:
         ```
         $ virtualenv venv
+	$ cd venv/scripts/activate
         ```
 
 * #### Instale todas as dependencias
@@ -47,7 +48,7 @@ Padrão de desenvolvimento restful API - Flask
     basedir = os.path.abspath(os.path.dirname(__file__))
     SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    SQLALCHEMY_DATABASE_URI = "postgresql://username:password@localhost/database_name"
+    SQLALCHEMY_DATABASE_URI = "postgresql://username:SuaSenhaDoPsql@localhost/database_name"
     ```
 * ### aqui, definimos a configuração que a API estará usando. Também estamos usando o banco de dados postgreSQL. Se você preferir outro banco de dados, basta modificar o valor de acordo.
 
@@ -84,7 +85,7 @@ Padrão de desenvolvimento restful API - Flask
     ``` 
     http://127.0.0.1:5000/api/
     ```
-    Ou teste as rotas /Comments e /Category  usando o Postman
+    Ou teste as rotas /Comentarios e /Categorias  usando o Postman
 	
 * #### Testando
     Navegue ate a pasta Testes, escolha entre a pasta de testes de integração ou unitarios e execute o comando:
